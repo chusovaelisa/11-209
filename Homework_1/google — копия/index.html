@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="google-icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: rgba(32,33,36,1);
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .header__navigation{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 6px;
+        }
+
+        .header__list a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .header__list a:hover{
+            text-decoration: underline;
+        }
+
+        .header__list li {
+            margin-right: 15px;
+        }
+
+        .header__list {
+            display: flex;
+            list-style-type: none;
+            margin-right: 10px;
+            margin-top: 6px;
+        }
+
+        .header__btn-login{
+            padding: 9px 23px;
+            margin: 0px 8px;
+            background: #8ab4f8;
+            text-decoration: none;
+            color: #202124;
+            border: 1px solid transparent;
+            border-radius: 4px;
+        }
+
+        .header__btn-login span{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+        }
+
+        .header__profile{
+            display: flex;
+            align-items: center;
+            margin-top: 6px;
+        }
+
+        .header__profile img{
+            margin-right: 10px;
+        }
+
+        .main__bg-banner{
+            text-align: center;
+            height: 275px;
+        }
+
+
+        .main__inner-bg{
+            display: flex;
+            justify-content: center;
+        }
+
+        .main__inner-bg img {
+            margin-top: 183px;
+        }
+
+        .main__search-box{
+            text-align: center;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            flex-direction: column;
+        }
+
+        .main__search-form{
+            width: 584px;
+            height: 48px;
+            border: 1px solid gray;
+            border-radius: 24px;
+            display: flex;
+            transition: color .2;
+        }
+
+        .main__search-form:hover{
+            background-color: rgb(75, 75, 75);
+        }
+
+        .main__search-logo{
+            display: flex;
+            align-items: center;
+            margin-left: 5px;
+        }
+
+        .main__search-icon{
+            width: 24px;
+            height: 24px;
+            fill: #9aa0a6;
+            margin-left: 5px;
+            padding-top: 10px;
+        }
+
+        .main__input{
+            display: flex;
+            align-items: center;
+            margin-left: 30px;
+            
+        }
+
+        .main__input input {
+            background-color: transparent;
+            border: none;
+            outline: none;
+            width: 403px;
+            height: 27px;
+            color: white;
+            font-size: 16px;
+            margin-left: 5px;
+        }
+
+        .main__icons{
+            display: flex;
+            align-items: center;
+        }
+
+        .main__keyboard{
+            height: 30px;
+            width: 30px;
+        }
+
+        .main__micro{
+            width: 24px;
+            height: 24px;
+        }
+
+        .main__box-keyboard{
+            margin: 0px 8px;
+        }
+
+        .main__box-micro{
+            margin: 0px 8px;
+        }
+
+        .main__photograph{
+            width: 24px;
+            height: 24px;
+        }
+
+        .main__box-photograph{
+            margin: 0px 8px;
+        }
+
+        .main__bottom-btns{
+
+            align-items: center;
+        }
+
+        .main__btns a {
+            text-decoration:  none;
+            color: white;
+            padding: 0px 16px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-right: 11px 4px;
+            line-height: 30px;
+            border: 1px solid #303134;
+            background-color: #303134;
+            margin-right: 5px;
+            border-radius: 4px;
+        }
+
+        .main__btns a:hover{
+            border: 1px solid gray;
+        }
+
+        .main__buttons{
+            margin-top: 40px;
+        }
+
+        .main__empty{
+            width: 1470px;
+            height: 248px;
+        }
+
+        .footer{
+            background: #171717;
+            color: #9aa0a6;
+        }
+
+        .footer__up-footer{
+            border-bottom: 1px solid #3c4043;
+        }
+
+        .footer__up-footer p {
+            padding: 15px 30px;
+        }
+
+        .footer__down-footer{
+            padding: 0px 15px;
+            display: flex;
+            text-align: center;
+            justify-content: space-between;
+        }
+
+        .footer__left-nav ul {
+            display: flex;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .footer__left-nav li {
+            list-style: none;
+            padding: 15px;
+        }
+
+        .footer__left-nav a {
+            text-decoration:  none;
+            color: #9aa0a6;
+            font-size: 14px;
+        }
+
+        .footer__left-nav a:hover{
+            text-decoration: underline;
+        }
+
+        .footer__middler-nav{
+            display: flex;
+            align-items: center;
+        }
+        
+        .footer__middler-nav a {
+            font-size: 14px;
+            text-decoration: none;
+            color: #9aa0a6;
+        }
+
+        .footer__middler-nav a:hover{
+            text-decoration: underline;
+        }
+
+        .footer__middle-text {
+            display: flex;
+            align-items: center;
+        }
+
+        .footer__middle-text img {
+            width: 24px;
+            height: 24px;
+        }
+
+        .footer__right-nav ul {
+            display: flex;
+            text-align: center;
+            margin: 0;
+            pad: 0;
+        }
+
+        .footer__right-nav ul li a {
+            text-decoration: none;
+            color: #9aa0a6;
+            font-size: 14px;
+        }
+
+        .footer__right-nav li {
+            list-style: none;
+            padding: 15px;
+        }
+
+        .footer__right-nav ul a:hover{
+            text-decoration: underline;
+        }
+
+    </style>
+    <title>Google</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__navigation">
+            <ul class="header__list">
+                <li><a href="https://www.google.com/intl/ru/gmail/about/">Почта</a></li>
+                <li><a href="https://www.google.com/imghp?hl=ru&ogbl">Картинки</a></li>
+            </ul>
+            <div class="header__profile">
+                <img title="Приложения Google" src="square.png" style="width: 24px;" alt="">
+                <a class="header__btn-login" href="#"><span>Войти</span></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="main__bg-banner">
+            <div class="main__inner-bg">
+                <img src="google-banner.png" style="width: 272px; height: 92px;" alt="">
+            </div>
+        </section>
+        <section class="main__search-box">
+            <div class="main__search-form">
+                <form action ="https://google.com/search">
+                <div class="main__search-logo">
+                    <svg class="main__search-icon" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+                </div>
+                <div class="main__input">
+                    <input type="text" name ="q">
+                </form>
+                </div>
+                <div class="main__icons">
+                    <div class="main__box-keyboard">
+                        <img class="main__keyboard" src="keyboard-icon.jpeg" alt="">
+                    </div>
+                    <div class="main__box-micro">
+                        <svg class="main__micro" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="#4285f4" d="m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z"></path><path fill="#34a853" d="m11 18.08h2v3.92h-2z"></path><path fill="#fbbc04" d="m7.05 16.87c-1.27-1.33-2.05-2.83-2.05-4.87h2c0 1.45 0.56 2.42 1.47 3.38v0.32l-1.15 1.18z"></path><path fill="#ea4335" d="m12 16.93a4.97 5.25 0 0 1 -3.54 -1.55l-1.41 1.49c1.26 1.34 3.02 2.13 4.95 2.13 3.87 0 6.99-2.92 6.99-7h-1.99c0 2.92-2.24 4.93-5 4.93z"></path></svg>
+                    </div>
+                    <div class="main__box-photograph">
+                        <svg class="main__photograph" focusable="false" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg"><rect fill="none" height="192" width="192"></rect><g><circle fill="#34a853" cx="144.07" cy="144" r="16"></circle><circle fill="#4285f4" cx="96.07" cy="104" r="24"></circle><path fill="#ea4335" d="M24,135.2c0,18.11,14.69,32.8,32.8,32.8H96v-16l-40.1-0.1c-8.8,0-15.9-8.19-15.9-17.9v-18H24V135.2z"></path><path fill="#fbbc04" d="M168,72.8c0-18.11-14.69-32.8-32.8-32.8H116l20,16c8.8,0,16,8.29,16,18v30h16V72.8z"></path><path fill="#4285f4" d="M112,24l-32,0L68,40H56.8C38.69,40,24,54.69,24,72.8V92h16V74c0-9.71,7.2-18,16-18h80L112,24z"></path></g></svg>
+                    </div>
+                </div>
+            </div>
+            <div class="main__buttons">
+                <div class="main__btns">
+                    <a href="#">Поиск в Google</a>
+                    <a href="https://www.google.com/doodles">Мне повезет!</a>
+                </div>
+            </div>
+        </section>
+        <section class="main__empty"></section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__up-footer">
+            <p>Россия</p>
+        </div>
+        <div class="footer__down-footer">
+            <div class="footer__left-nav">
+                <ul>
+                    <li><a href="https://about.google/?utm_source=google-RU&utm_medium=referral&utm_campaign=hp-footer&fg=1">Все о Google</a></li>
+                    <li><a href="https://ads.google.com/intl/ru_ru/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Реклама</a></li>
+                    <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Для бизнеса</a></li>
+                    <li><a href="https://www.google.com/search/howsearchworks/?fg=1">Как работает Google Поиск</a></li>
+                </ul>
+            </div>
+            <div class="footer__middler-nav">
+                <div class="footer__middle-text">
+                    <img src="lead.jpeg" alt="">
+                    <span>
+                        <a href="https://sustainability.google/intl/ru/carbon-free/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=#home">Наше третье десятилетие борьбы с изменением климата</a>
+                    </span>
+                </div>
+            </div>
+            <div class="footer__right-nav">
+                <ul>
+                    <li><a href="https://policies.google.com/privacy?hl=ru&fg=1">Конфидециальность</a></li>
+                    <li><a href="https://policies.google.com/terms?hl=ru&fg=1">Условия</a></li>
+                    <li><a href="https://www.google.com/preferences?hl=ru&fg=1">Настройки</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
