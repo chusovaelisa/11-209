@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    .top_box{
+        flex-grow: 1;
+        min-height: 24px;
+    }
+    .box_wrapper{
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+        position: relative;
+        width: 416px;
+        margin: 0 auto 25px;
+    }
+    body{
+        background-color: #171920;
+        font-family: "Object Sans", "Arial", "Helvetica", "Segoe UI Symbol", "Segoe MDL2 Assets", sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        color: aliceblue;
+    }
+    .box_wrapper_inner{
+        position: relative;
+        width: 100%;
+        padding: 24px 0;
+        background: none;
+        border: none;
+        box-sizing: border-box;
+    }
+    .battlenet_logo{
+        background-image: url("logo_battlenet.svg");
+        margin: 0 auto 38px auto;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 240px;
+        height: 72px;
+    }
+    .input{
+        min-width: 290px;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .login{
+        max-width: 100%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
+    .login_header{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 36px;
+        margin: 40px 0px;
+        text-align: center;
+    }
+    .top_icons{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0 40px;
+    }
+
+    .google
+    .google_btn{
+        position: relative;
+        width: 48px;
+        height: 48px;
+        padding: 13px;
+        border-radius: 4px;
+        margin: 12px;
+        background-color: #FFF;
+        white-space: normal;
+        padding: 0 20px;
+        font-size: 16px;
+        line-height: 20px;
+        min-height: 40px;
+        color: #ffffff;
+        border: 2px solid transparent;
+        font-weight: 500;
+        border-radius: 4px;
+        transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .google_icon{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        opacity: 1;
+        height: 18px;
+        width: 17px;
+        margin-top: 0;
+    }
+
+    .facebook_btn{
+        position: relative;
+        width: 48px;
+        height: 48px;
+        padding: 13px;
+        border-radius: 4px;
+        margin: 12px;
+        background-color: #1877F2;
+        white-space: normal;
+        padding: 0 20px;
+        font-size: 16px;
+        line-height: 20px;
+        min-height: 40px;
+        color: #ffffff;
+        border: 2px solid transparent;
+        font-weight: 500;
+        border-radius: 4px;
+        transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .facebook_icon{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        opacity: 1;
+        height: 18px;
+        width: 18px;
+        margin-top: 0;
+
+    }
+
+    .apple_btn{
+        position: relative;
+        width: 48px;
+        height: 48px;
+        padding: 13px;
+        border-radius: 4px;
+        margin: 12px;
+        background-color: #FFF;
+        white-space: normal;
+        padding: 0 20px;
+        font-size: 16px;
+        line-height: 20px;
+        min-height: 40px;
+        color: #ffffff;
+        border: 2px solid transparent;
+        font-weight: 500;
+        border-radius: 4px;
+        transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+
+    }
+
+    .apple_icon{
+        position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    opacity: 1;
+    height: 19px;
+    width: 15px;
+    margin-top: -2px;
+
+    }
+    
+    .med_icons{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0 40px;
+    }
+
+    .xbox_btn{
+        position: relative;
+        width: 48px;
+        height: 48px;
+        padding: 13px;
+        border-radius: 4px;
+        margin: 12px;
+        white-space: normal;
+        padding: 0 20px;
+        font-size: 16px;
+        background-color: #107c10;
+        line-height: 20px;
+        min-height: 40px;
+        color: #ffffff;
+        border: 2px solid transparent;
+        font-weight: 500;
+        border-radius: 4px;
+        transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+
+    }
+
+    .xbox_icon{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        opacity: 1;
+        height: 16px;
+        width: 16px;
+        margin-top: 0;
+    }
+    .playstation_btn{
+        position: relative;
+        width: 48px;
+        height: 48px;
+        padding: 13px;
+        border-radius: 4px;
+        margin: 12px;white-space: normal;
+        padding: 0 20px;
+        font-size: 16px;
+        line-height: 20px;
+        min-height: 40px;
+        color: #ffffff;
+        background-color: #0070CC;
+        border: 2px solid transparent;
+        font-weight: 500;
+        border-radius: 4px;
+        transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .playstation_icon{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        opacity: 1;
+        height: 15px;
+        width: 21px;
+        margin-top: 0;
+    }
+
+    .nintrndo_btn{
+        position: relative;
+        width: 48px;
+        height: 48px;
+        padding: 13px;
+        border-radius: 4px;
+        margin: 12px;
+        background-color: #e60012;
+        white-space: normal;
+        padding: 0 20px;
+        font-size: 16px;
+        line-height: 20px;
+        min-height: 40px;
+        color: #ffffff;
+        border: 2px solid transparent;
+        font-weight: 500;
+        border-radius: 4px;
+        transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    .nintendo_icon{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        opacity: 1;
+        height: 16px;
+        width: 16px;
+        margin-top: 0;
+    }
+
+    .steam_btn{
+        position: relative;
+        width: 48px;
+        height: 48px;
+        padding: 13px;
+        border-radius: 4px;
+        margin: 12px;
+        background-color: #FFF;
+        white-space: normal;
+        padding: 0 20px;
+        font-size: 16px;
+        line-height: 20px;
+        min-height: 40px;
+        color: #ffffff;
+        border: 2px solid transparent;
+        font-weight: 500;
+        border-radius: 4px;
+        transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .steam_icon{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        opacity: 1;
+        height: 16px;
+        width: 16px;
+        margin-top: 0;
+    }
+
+    .text_login{
+        margin: 40px 0 24px 0;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        font-family: "Noto Sans", "Object Sans", sans-serif;
+        line-height: 21px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.6);
+        text-transform: none;
+        display: block;
+        text-align: center;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .span_text_login{
+        position: relative;
+        display: inline-block;
+
+    }
+    .password_form{
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    
+    .input_mail{
+        width: 100%;
+        display: inline-block;
+        vertical-align: middle;
+        height: 40px;
+        padding: 0 12px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        font-size: 16px;
+        line-height: 24px;
+        border: 1px solid rgba(255, 255, 255, 0.36);
+        background-color: #171920;
+        color: #ffffff;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 4px;
+        appearance: none;
+        transition: background-position 0.2s, background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
+        box-shadow: inherit;
+        padding-right: 52px;
+    
+    }
+
+    .control_login{
+        margin: 0 auto 11px;
+    }
+    
+    .control_password{
+        margin: 0 auto 11px;
+    }
+
+    .input_password{
+        width: 100%;
+        padding-right: 52px;
+        box-shadow: inherit;
+        appearance: none;
+        transition: background-position 0.2s, background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
+        display: inline-block;
+        vertical-align: middle;
+        height: 40px;
+        padding: 0 12px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        font-size: 16px;
+        line-height: 24px;
+        border: 1px solid rgba(255, 255, 255, 0.36);
+        background-color: #171920;
+        color: #ffffff;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+    .input_password:hover{
+        border: 1px solid white;
+
+    }
+    .input_mail:hover{
+        border: 1px solid white;
+    }
+
+    .control_group_submit{
+        text-align: center;
+        margin-top: 35px;
+        margin: 0 auto 11px;
+    }
+
+    .submit_btn{
+        margin-top: 35px;
+        margin-bottom: 6px;
+        display: block;
+        width: 100%;
+        background-color: #0074e0;
+        color: #ffffff;
+        border: 2px solid transparent;
+        font-weight: 500;
+        border-radius: 4px;
+        transition: background-color 0.9s, border-color 0.9s, color 0.9s;
+        white-space: normal;
+        padding: 0 20px;
+        font-size: 16px;
+        line-height: 20px;
+        min-height: 40px;
+        color: #ffffff;
+        border: 2px solid transparent;
+        font-weight: 500;
+        border-radius: 4px;
+
+    }
+
+    .bottom_help{
+        font-size: 16px;
+        line-height: 24px;
+        list-style-type: none;
+        text-align: center;
+        padding: 0;
+        line-height: 30px;
+        font-family: "Noto Sans", "Georgia", "Times New Roman", "Times", "Segoe UI Symbol", "Segoe MDL2 Assets", serif;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    .link1{
+        margin-bottom: 24px;
+        padding-left: 0;
+        margin: 24.75px 0;
+        font-family: "Noto Sans", "Georgia", "Times New Roman", "Times", "Segoe UI Symbol", "Segoe MDL2 Assets", sans-serif;
+        padding-left: 10px;
+        display: list-item;
+        text-align: center;
+        font-size: 16px;
+        list-style-type: none;
+        line-height: 24px;
+    }
+
+    .link1_text{
+        font-family: "Noto Sans", "Georgia", "Times New Roman", "Times", "Segoe UI Symbol", "Segoe MDL2 Assets", sans-serif;
+        color: #148eff;
+        text-decoration: none;
+        text-underline-position: under;
+        font-family: "Noto Sans", "Georgia", "Times New Roman", "Times", "Segoe UI Symbol", "Segoe MDL2 Assets", serif;
+        font-weight: 700;
+        transition: color 0.2s;
+        background: transparent;
+        text-align: center;
+    }
+
+    .link2{
+        margin-bottom: 24px;
+        padding-left: 0;
+        font-family: "Noto Sans", "Georgia", "Times New Roman", "Times", "Segoe UI Symbol", "Segoe MDL2 Assets", sans-serif;
+        line-height: 24px;
+        margin: 0 0 24.75px 0;
+        display: list-item;
+        text-align: center;
+        font-size: 16px;
+        list-style-type: none;
+
+    }
+
+    .link2_text{
+        color: #148eff;
+        text-decoration: none;
+        font-family: "Noto Sans", "Georgia", "Times New Roman", "Times", "Segoe UI Symbol", "Segoe MDL2 Assets", sans-serif;
+        transition: color 0.2s;
+        cursor: pointer;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .grid_container_wrapper{
+        height: 100%;
+        padding-bottom: 300px;
+        box-sizing: unset;
+        position: relative;
+        min-height: 100%;
+        padding: 0;
+    }
+
+    .footer{
+    padding-bottom: 24px;
+    position: absolute;
+    bottom: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    }
+
+    .nav-client{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .footer-content{
+        padding-left: 0;
+        padding-right: 0;
+        min-width: auto;
+        margin: 0 auto;
+        border: none;
+        color: #7b7b7b;
+        padding: 10px;
+    }
+
+    .nav-section{
+        margin: 0;
+    }
+
+    .nav-left{
+        float: none;
+        text-align: center;
+    }
+
+    .footer-links{
+        padding: 8px 0 0 30px;
+        text-transform: uppercase;
+    }
+
+    .nav-item{
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.7);
+        text-decoration: none;
+        transition: text-shadow 160ms ease, color 160ms ease;
+    }
+
+    .nav-item:hover{
+        color: #fff;
+    }
+
+    .nav-a{
+        font-weight: 400;
+    }
+
+
+    .footer-links .nav-left span {
+        color: rgba(255, 255, 255, 0.3);
+        margin: 0 9px 0 9px;
+    }
+
+    .copyright{
+        padding: 8px 0;
+        color: rgba(255, 255, 255, 0.3);
+        font-size: 10px;
+    }
+
+    .google_btn:hover{
+        background-color: #c9c7c7;
+
+    }
+    .apple_btn:hover{
+        background-color: #c9c7c7;
+    }
+
+    .steam_btn:hover{
+        background-color: #c9c7c7;
+    }
+    .facebook_btn:hover{
+        background-color: #125dc0;
+    }
+    .xbox_btn:hover{
+        background-color: #0a4f0a;
+    }
+    .playstation_btn:hover{
+        background-color: #015193;
+    }
+    .nintendo_btn:hover{
+        background-color: #81010c;
+    }
+    .submit_btn:hover{
+        border-color: #59abf7;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="grid_container_wrapper">
+        <div class="box_wrapper">
+            <div class="top_box"></div>
+            <div class="box_wrapper_inner">
+                <h1 class="battlenet_logo"></h1>
+                <div class="input">
+                    <div class="login">
+                        <h3 class="login_header">Авторизоваться</h3>
+                        <div class="top_icons">
+
+                            <form method="post" class="google">
+                                <button class="google_btn">
+                                    <img class="google_icon" src="google-logo-color.svg" alt="">
+
+                                </button>
+                            </form>
+                            <form method="post" class="facebook">
+                                <button class="facebook_btn">
+                                    <img src="facebook-logo-white.svg"  class="facebook_icon" alt="">
+                                </button>
+
+                            </form>
+                            <form method="post" class="apple">
+                                <button class="apple_btn">
+                                    <img src="apple-logo-black.svg"  class="apple_icon" alt="">
+                                </button> 
+                            </form>
+                        </div>
+                        <div class="med_icons">
+                            <form method="post" class="xbox">
+                                <button class="xbox_btn">
+                                    <img src="xbox-logo-white.svg" alt="" class="xbox_icon">
+                                </button>
+
+                            </form>
+                            <form method="post" class="playstation">
+                                <button class="playstation_btn">
+                                    <img class="playstation_icon" src="playstation-logo-white.svg" alt="">
+                                </button>
+                            </form>
+                            <form method="post" class="nintendo">
+                                <button class="nintrndo_btn">
+                                    <img src="switch-logo-white.svg" alt="" class="nintendo_icon">
+                                </button>
+
+                            </form>
+                            <form method="post" class="steam">
+                                <button class="steam_btn">
+                                    <img src="steam-logo-black.svg" alt="" class="steam_icon">
+                                </button>
+                            </form>
+                        </div>
+                        <div class="text_login">
+                            <span class="span_text_login">или войти через</span>
+                        </div>
+                        <form action method ="post" class="password_form">
+                            <div class="login_input_container">
+                                <div class="control_group1">
+                                    <div class="control_login">
+                                        <input type="text" class="input_mail" placeholder="Элекронная почта или телефон">
+                                    </div>
+                                </div>
+                                <div class="control_group2">
+                                    <div class="control_password">
+                                        <input type="text" class="input_password" placeholder="Пароль">
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="control_group_submit">
+                                <button type="submit" class="submit_btn">Авторизация</button>
+                            </div>
+
+
+                        </form>
+                        <ul class="bottom_help" >
+                            <li class="link1">
+                                <a  class="link1_text" href="https://account.battle.net/creation/flow/creation-full">Зарегистрируйте учётную запись Battle.net бесплатно</a>
+                            </li>
+                            <li class="link2">
+                                <a  class="link2_text" href="https://account.battle.net/recovery/ru/?theme=bnet-next&flowTrackingId=09e03ff5-9aff-416b-9393-5e636735828d"> Не можете войти?</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="nav-client">
+            <div class="footer-content">
+                <div class="nav-section">
+                    <div class="nav-left">
+                        <div class="footer-links nav-left">
+                            <a class="nav-item nav-a" href="https://www.blizzard.com/company/legal/eula">ПОЛЬЗОВАТЕЛЬСКОЕ СОГЛАШЕНИЕ BLIZZARD </a>
+                            <span>|</span>
+                            <a class="nav-item nav-a" href="https://www.blizzard.com/company/legal/eula">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a>
+                            <span>|</span>
+                            <a class="nav-item nav-a" href="https://www.blizzard.com/company/legal/eula">УСЛОВИЯ</a>
+                            <span>|</span>
+                            <a class="nav-item nav-a" href="https://www.blizzard.com/company/legal/eula">АВТОРСКОЕ ПРАВО</a>
+                            <span>|</span>
+                            <a class="nav-item nav-a" href="https://www.blizzard.com/company/legal/eula">ФАЙЛЫ COOKIE </a>
+                            <span>|</span>
+                            <a class="nav-item nav-a"  href="https://www.blizzard.com/company/legal/eula">ПАРАМЕТРЫ COOKIE</a>
+                            <div class="copyright">
+                                ©2023 Blizzard Entertainment, Inc. All rights reserved.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
