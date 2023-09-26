@@ -1,0 +1,20 @@
+/Users/lizaka/Desktop/http server/http server/bin/Debug/net7.0/http server
+/Users/lizaka/Desktop/http server/http server/bin/Debug/net7.0/Appsetting.cs
+/Users/lizaka/Desktop/http server/http server/bin/Debug/net7.0/Program.cs
+/Users/lizaka/Desktop/http server/http server/bin/Debug/net7.0/http server.deps.json
+/Users/lizaka/Desktop/http server/http server/bin/Debug/net7.0/http server.runtimeconfig.json
+/Users/lizaka/Desktop/http server/http server/bin/Debug/net7.0/http server.dll
+/Users/lizaka/Desktop/http server/http server/bin/Debug/net7.0/http server.pdb
+/Users/lizaka/Desktop/http server/http server/obj/Debug/net7.0/http server.csproj.AssemblyReference.cache
+/Users/lizaka/Desktop/http server/http server/obj/Debug/net7.0/http server.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lizaka/Desktop/http server/http server/obj/Debug/net7.0/http server.AssemblyInfoInputs.cache
+/Users/lizaka/Desktop/http server/http server/obj/Debug/net7.0/http server.AssemblyInfo.cs
+/Users/lizaka/Desktop/http server/http server/obj/Debug/net7.0/http server.csproj.CoreCompileInputs.cache
+/Users/lizaka/Desktop/http server/http server/obj/Debug/net7.0/http server.dll
+/Users/lizaka/Desktop/http server/http server/obj/Debug/net7.0/refint/http server.dll
+/Users/lizaka/Desktop/http server/http server/obj/Debug/net7.0/http server.pdb
+/Users/lizaka/Desktop/http server/http server/obj/Debug/net7.0/http server.genruntimeconfig.cache
+/Users/lizaka/Desktop/http server/http server/obj/Debug/net7.0/ref/http server.dll
+/Users/lizaka/Desktop/http server/http server/bin/Debug/net7.0/Appsettings.json
+/Users/lizaka/Desktop/http server/http server/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/lizaka/Desktop/http server/http server/obj/Debug/net7.0/http server.csproj.CopyComplete

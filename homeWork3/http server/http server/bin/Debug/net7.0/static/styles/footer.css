@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    padding: 0px 20px 0px 20px;
+}
+
+.footer__info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__info li {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: #9999;
+}
+
+.footer__mail{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #9999;
+}

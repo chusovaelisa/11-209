@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{44311493-E6F7-4E36-995A-65C5EA8B3C54}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.http_220server PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="http server/Appsettings.json">
+    <Files>
+      <File FileName="http server/Program.cs" Line="38" Column="24" />
+      <File FileName="http server/Appsettings.json" Line="4" Column="1" />
+      <File FileName="http server/Appsetting.cs" Line="13" Column="52" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="http server" expanded="True">
+            <Node name="http server">
+              <Node name="Appsettings.json" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
