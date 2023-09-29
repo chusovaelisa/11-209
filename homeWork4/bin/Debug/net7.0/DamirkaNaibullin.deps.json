@@ -1,0 +1,95 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "DamirkaNaibullin/1.0.0": {
+        "dependencies": {
+          "MailKitLite": "4.2.0",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "DamirkaNaibullin.dll": {}
+        }
+      },
+      "MailKitLite/4.2.0": {
+        "dependencies": {
+          "MimeKitLite": "4.2.0"
+        },
+        "runtime": {
+          "lib/net6.0/MailKitLite.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "MimeKitLite/4.2.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Encoding.CodePages": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/MimeKitLite.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "System.Text.Encoding.CodePages/7.0.0": {}
+    }
+  },
+  "libraries": {
+    "DamirkaNaibullin/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MailKitLite/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6Wt9Vhc0EtKhnFKtm2efPU+PF4kX8A0OhmyMqL12v6rNPNkdXXK8KuYcmHAr8fuovHFECXgiK4yJ5r2MCeV+fQ==",
+      "path": "mailkitlite/4.2.0",
+      "hashPath": "mailkitlite.4.2.0.nupkg.sha512"
+    },
+    "MimeKitLite/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AfHhw0xyl4s5LO9Hhkxrp6F4p8GkW2DgEIiXzXGXfo7kMSvytzP6Fs2yclGeagG04MpujlSJSFrFhlxmtiWjhg==",
+      "path": "mimekitlite/4.2.0",
+      "hashPath": "mimekitlite.4.2.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LSyCblMpvOe0N3E+8e0skHcrIhgV2huaNcjUUEa8hRtgEAm36aGkRoC8Jxlb6Ra6GSfF29ftduPNywin8XolzQ==",
+      "path": "system.text.encoding.codepages/7.0.0",
+      "hashPath": "system.text.encoding.codepages.7.0.0.nupkg.sha512"
+    }
+  }
+}
