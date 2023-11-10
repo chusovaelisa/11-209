@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6YOaN9SCpWY/qVY7hWcPJri8yUFhXUJL2Uwp81eD4yG6zjgrzpMw2pAKeGqOOuQpP6Dl7uVHvu+Cka3JV5f9tg==",
+  "success": true,
+  "projectFilePath": "/Users/lizaka/RiderProjects/AdoNet.Metanit/ConsoleApp1/ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "/Users/lizaka/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0-rc.2.23479.6/microsoft.extensions.dependencyinjection.abstractions.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "/Users/lizaka/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0-rc.2.23479.6/microsoft.extensions.logging.abstractions.8.0.0-rc.2.23479.6.nupkg.sha512",
+    "/Users/lizaka/.nuget/packages/npgsql/8.0.0-rc.2/npgsql.8.0.0-rc.2.nupkg.sha512"
+  ],
+  "logs": []
+}

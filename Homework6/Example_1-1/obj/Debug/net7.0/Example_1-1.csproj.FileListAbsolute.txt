@@ -1,0 +1,15 @@
+/Users/lizaka/RiderProjects/AdoNet.Metanit/Example_1-1/bin/Debug/net7.0/Example_1-1
+/Users/lizaka/RiderProjects/AdoNet.Metanit/Example_1-1/bin/Debug/net7.0/Example_1-1.deps.json
+/Users/lizaka/RiderProjects/AdoNet.Metanit/Example_1-1/bin/Debug/net7.0/Example_1-1.runtimeconfig.json
+/Users/lizaka/RiderProjects/AdoNet.Metanit/Example_1-1/bin/Debug/net7.0/Example_1-1.dll
+/Users/lizaka/RiderProjects/AdoNet.Metanit/Example_1-1/bin/Debug/net7.0/Example_1-1.pdb
+/Users/lizaka/RiderProjects/AdoNet.Metanit/Example_1-1/obj/Debug/net7.0/Example_1-1.csproj.AssemblyReference.cache
+/Users/lizaka/RiderProjects/AdoNet.Metanit/Example_1-1/obj/Debug/net7.0/Example_1-1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lizaka/RiderProjects/AdoNet.Metanit/Example_1-1/obj/Debug/net7.0/Example_1-1.AssemblyInfoInputs.cache
+/Users/lizaka/RiderProjects/AdoNet.Metanit/Example_1-1/obj/Debug/net7.0/Example_1-1.AssemblyInfo.cs
+/Users/lizaka/RiderProjects/AdoNet.Metanit/Example_1-1/obj/Debug/net7.0/Example_1-1.csproj.CoreCompileInputs.cache
+/Users/lizaka/RiderProjects/AdoNet.Metanit/Example_1-1/obj/Debug/net7.0/Example_1-1.dll
+/Users/lizaka/RiderProjects/AdoNet.Metanit/Example_1-1/obj/Debug/net7.0/refint/Example_1-1.dll
+/Users/lizaka/RiderProjects/AdoNet.Metanit/Example_1-1/obj/Debug/net7.0/Example_1-1.pdb
+/Users/lizaka/RiderProjects/AdoNet.Metanit/Example_1-1/obj/Debug/net7.0/Example_1-1.genruntimeconfig.cache
+/Users/lizaka/RiderProjects/AdoNet.Metanit/Example_1-1/obj/Debug/net7.0/ref/Example_1-1.dll
