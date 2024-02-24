@@ -1,0 +1,164 @@
+.card{
+    margin-top: 50px;
+    min-width: 500px;
+    border-radius: 16px;
+    padding: 10px 30px;
+    box-shadow: 6px 2px 39px 13px rgba(0, 0, 0, 0.2);
+}
+
+.card__header{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.card__header__title{
+
+}
+
+.card__header__title p{
+    color: blue;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.card__header__title__btns{
+    border-radius: 5px;
+    height: 25px;
+    width: 75px;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.card__body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__body_statistics{
+
+}
+
+.card__body_statistics {
+}
+
+.card__body__image{
+
+}
+
+.card__body__image img {
+    max-width: 150px;
+}
+
+.card__body__progress1{
+    border-radius: 4px;
+    width: 200px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    background-color: rgba(144, 238, 144, 0.3); /* Светло-зеленый цвет с прозрачностью 0.3 */
+
+}
+.card__body__progress2{
+    border-radius: 4px;
+    width: 200px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    background-color: rgba(255, 192, 203, 0.3); /* Нежно-нежно красный с прозрачностью 0.3 */
+
+}
+.card__body__progress3{
+    border-radius: 4px;
+    width: 200px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    background-color: rgba(255, 230, 153, 0.3); /* Более теплый желтый с прозрачностью 0.3 */
+
+}
+.card__body__progress4{
+    border-radius: 4px;
+    width: 200px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    background-color: rgba(255, 204, 153, 0.3); /* Светло-оранжевый с прозрачностью 0.3 */
+
+}
+
+.card__body__progress_bar{
+    width: 0;
+    height: 5px;
+    background-color: #007bff;
+    transition: width 0.3s ease-in-out;
+}
+
+.card__footer{
+    min-height: 50px;
+}
+
+.card__breeding {
+    margin-top: 30px;
+    min-width: 500px;
+    border-radius: 16px;
+    padding: 10px 30px;
+    box-shadow: 6px 2px 39px 13px rgba(0, 0, 0, 0.2);
+}
+.header__wrapper{
+    max-width: 500px;
+    margin: auto;
+}
+.card__breeding{
+    margin-top: 30px;
+    min-width: 500px;
+    border-radius: 16px;
+    padding: 10px 30px;
+    box-shadow: 6px 2px 39px 13px rgba(0, 0, 0, 0.2);
+}
+
+.card__breeding__title{
+    padding-top: 20px;
+}
+
+.card__breeding__title p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.card__breeding__stat{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.card__breeding__stat__height{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card__breeding__stat__height h5{
+    font-size: 14px;
+    align-items: center;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.card__breeding__stat__height__table{
+    min-width: 150px;
+    padding: 5px 25px;
+    display: inline-flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #F8F9FA;
+    border: 1px solid #c6c6c6;
+}
+
+.card__breeding__stat__height__table p {
+    font-size: 14px;
+}
+.card__body{
+    display: flex;
+    justify-content: space-between;
+}
