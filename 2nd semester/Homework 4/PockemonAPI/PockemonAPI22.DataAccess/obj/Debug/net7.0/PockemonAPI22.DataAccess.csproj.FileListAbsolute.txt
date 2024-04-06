@@ -1,0 +1,12 @@
+/Users/lizaka/Desktop/PockemonAPI/PockemonAPI22.DataAccess/bin/Debug/net7.0/PockemonAPI22.DataAccess.deps.json
+/Users/lizaka/Desktop/PockemonAPI/PockemonAPI22.DataAccess/bin/Debug/net7.0/PockemonAPI22.DataAccess.dll
+/Users/lizaka/Desktop/PockemonAPI/PockemonAPI22.DataAccess/bin/Debug/net7.0/PockemonAPI22.DataAccess.pdb
+/Users/lizaka/Desktop/PockemonAPI/PockemonAPI22.DataAccess/obj/Debug/net7.0/PockemonAPI22.DataAccess.csproj.AssemblyReference.cache
+/Users/lizaka/Desktop/PockemonAPI/PockemonAPI22.DataAccess/obj/Debug/net7.0/PockemonAPI22.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lizaka/Desktop/PockemonAPI/PockemonAPI22.DataAccess/obj/Debug/net7.0/PockemonAPI22.DataAccess.AssemblyInfoInputs.cache
+/Users/lizaka/Desktop/PockemonAPI/PockemonAPI22.DataAccess/obj/Debug/net7.0/PockemonAPI22.DataAccess.AssemblyInfo.cs
+/Users/lizaka/Desktop/PockemonAPI/PockemonAPI22.DataAccess/obj/Debug/net7.0/PockemonAPI22.DataAccess.csproj.CoreCompileInputs.cache
+/Users/lizaka/Desktop/PockemonAPI/PockemonAPI22.DataAccess/obj/Debug/net7.0/PockemonAPI22.DataAccess.dll
+/Users/lizaka/Desktop/PockemonAPI/PockemonAPI22.DataAccess/obj/Debug/net7.0/refint/PockemonAPI22.DataAccess.dll
+/Users/lizaka/Desktop/PockemonAPI/PockemonAPI22.DataAccess/obj/Debug/net7.0/PockemonAPI22.DataAccess.pdb
+/Users/lizaka/Desktop/PockemonAPI/PockemonAPI22.DataAccess/obj/Debug/net7.0/ref/PockemonAPI22.DataAccess.dll
